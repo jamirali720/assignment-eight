@@ -37,9 +37,9 @@ const Team = () => {
                     <p>Description :<small>{teams.strStadiumDescription}</small> </p>
                 </div>
                 <div className="icons ">         
-                    <a href="https://www.facebook.com/"  target="_blank">  <FontAwesomeIcon icon={faFacebook}  /> </a> 
-                    <a href="https://twitter.com/"  target="_blank"> <FontAwesomeIcon icon={faTwitter}  /></a>
-                    <a className="youtubeIcon" href="https://www.youtube.com" target="_blank"> <FontAwesomeIcon icon={faYoutube}  /></a>
+                    <a href="https://www.facebook.com/" >  <FontAwesomeIcon icon={faFacebook}  /> </a> 
+                    <a href="https://twitter.com/"  > <FontAwesomeIcon icon={faTwitter}  /></a>
+                    <a className="youtubeIcon" href="https://www.youtube.com" > <FontAwesomeIcon icon={faYoutube}  /></a>
                 </div>
             </div>
         
