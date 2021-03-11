@@ -48,9 +48,9 @@ const Team = () => {
                     <p>Description :<small>{teams.strStadiumDescription}</small> </p>
                 </div>
                 <div className="icons ">         
-                    <a href="https://www.facebook.com/">  <FontAwesomeIcon icon={faFacebook}  /> </a> 
+                    <a href="https://www.facebook.com/" >  <FontAwesomeIcon icon={faFacebook}  /> </a> 
                     <a href="https://twitter.com/"  > <FontAwesomeIcon icon={faTwitter}  /></a>
-                    <a className="youtubeIcon" href="https://www.youtube.com"> <FontAwesomeIcon icon={faYoutube}  /></a>
+                    <a className="youtubeIcon" href="https://www.youtube.com" > <FontAwesomeIcon icon={faYoutube}  /></a>
                 </div>
             </div>
         
