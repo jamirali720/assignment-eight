@@ -7,7 +7,7 @@ import './Detail.css'
 
 const Detail = (props) => {
    
-    const {idTeam, intFormedYear, strCountry, strTeamBadge,  strTeamBanner, strTeam } = props.team;
+    const {idTeam, intFormedYear, strCountry, strTeamBadge,  strTeam } = props.team;
     return (
         <div className=" m-3">
             <div >
