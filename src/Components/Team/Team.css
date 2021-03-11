@@ -58,3 +58,6 @@
 .youtubeIcon :hover {
     color : red;
 }
+.icon-gender {
+    display: flex;
+}

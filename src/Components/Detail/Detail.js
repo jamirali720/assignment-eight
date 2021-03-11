@@ -7,12 +7,9 @@ import './Detail.css'
 
 const Detail = (props) => {
    
-    const {idTeam, intFormedYear, strCountry, strTeamBadge,  strTeamBanner, strTeam } = props.team;
+    const {idTeam, intFormedYear, strCountry, strTeamBadge,  strTeam } = props.team;
     return (
-        <div className=" m-3">
-            <div >
-                {/* <img src={strStadiumThumb} alt=""/> */}
-            </div>
+        <div className="m-3">           
                  <div className="card-img ms-5">
                  <Card style={{ width: '20rem'  }}>
                      <Card.Img variant="top" src={strTeamBadge} />

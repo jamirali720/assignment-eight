@@ -11,8 +11,12 @@ const Home = () => {
     }, [])
     
     return (
-        <div className="">
-            <h1> Total Number of Teams : { teams.length}</h1>
+        <div className="text-center ps-5">
+           
+          <div className="title">
+                <h1> Football  Premier  League</h1>
+                <img  src="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/nzrkjuoqh7onjyft_1580744253.jpeg?tr=w-758,h-433" alt=""/>
+          </div>
            <div className="HomeStyle">  
            {
                teams.map((team, idTeam)=> <Detail team={team} key={idTeam}></Detail> )
