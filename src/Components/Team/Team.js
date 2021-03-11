@@ -20,7 +20,7 @@ const Team = () => {
    changeGender = gender ? <h6> Gender : {teams.strGender}</h6>  : <h6> Gender : Female</h6>
     return (
         <div className ="container">
-            <div className="stadiumDiv">
+            <div>
                 <img className="img-1" src={teams.strTeamBanner} alt=""/>
                 <img className="img-2" src={teams.strTeamBadge} alt=""/>           
             </div>

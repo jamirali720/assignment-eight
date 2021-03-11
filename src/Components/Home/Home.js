@@ -11,11 +11,11 @@ const Home = () => {
     }, [])
     
     return (
-        <div className="text-center ps-5">
+        <div className="text-center ps-5 container-fluid responseDiv">
            
           <div className="title">
-                <h1> Football  Premier  League</h1>
-                <img  src="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/nzrkjuoqh7onjyft_1580744253.jpeg?tr=w-758,h-433" alt=""/>
+                <h1> Football  Premier Team</h1>
+                <img   src="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/nzrkjuoqh7onjyft_1580744253.jpeg?tr=w-758,h-433" alt=""/>
           </div>
            <div className="HomeStyle">  
            {

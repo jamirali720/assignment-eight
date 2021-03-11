@@ -1,8 +1,8 @@
 .HomeStyle{
     width : 650px;
-    height: 400px;
-    display: grid;
+    height: 400px;  
     margin-left: 42px;
+    display: grid;
     grid-template-columns: repeat(3, 1fr)
 }
 img {
@@ -17,14 +17,19 @@ img {
     font-size: 50px;
     color: rgb(255, 0, 0);
 }
-@media only screen and (max-width: 320px) {
-    .HomeStyle{
-        display: grid;
-        grid-template-columns: auto;
+
+@media  (max-width: 600px) {
+    .title h1 {
+      font-size: 100%;
     }
   }
-@media only screen and (max-width: 320px) {
-    .title h1{
-        font-size: 20px;
+
+@media  (max-width: 480px) {
+    .responseDiv .HomeStyle{
+        width: 25%;
+        margin: 0;
+        display: grid;
+       grid-template-columns: 300px;
+       
     }
   }
